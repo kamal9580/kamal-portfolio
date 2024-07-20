@@ -1,7 +1,8 @@
 <div align="center">
   <br />
     <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
+      <img src="![Screenshot 2024-07-21 005750](https://github.com/user-attachments/assets/dad6160e-f129-49d9-98a3-1ce501a83b9e)
+" alt="Project Banner">
     </a>
   <br />
 
