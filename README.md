@@ -2,13 +2,7 @@
 
 
 
-<div align="center">
-  <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/user-attachments/assets/dad6160e-f129-49d9-98a3-1ce501a83b9e
-" alt="Project Banner">
-    </a>
-  <br />
+![Screenshot 2024-07-21 005750](https://github.com/user-attachments/assets/9b71bba6-538d-4e72-bfa0-996f2b887d16)
 
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
