@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "About", link: "https://linktr.ee/nileshkamal9693" },
+  { name: "About", link: "https://bento.me/nileshkumarkamal" },
   { name: "Projects", link: "https://github.com/kamal9580" },
   { name: "Testimonials", link: "#testimonials" },
   {
