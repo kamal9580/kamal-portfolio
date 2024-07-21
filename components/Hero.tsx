@@ -57,8 +57,10 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! i am Nilesh Kumar Kamal a full stack web developer from IIIT
-            Ranchi.
+          Hi! I'm Nilesh Kumar Kamal, a Software Engineer interest in
+            Competitive Programming and a final year undergraduate at Indian
+            Institute of Information Technology, Ranchi. My passion extends to
+            Full Stack development, where I've crafted impactful MERN projects.
           </p>
 
           <a href="#about">
