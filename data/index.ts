@@ -1,6 +1,6 @@
 export const navItems = [
   { name: "About", link: "https://bento.me/nileshkumarkamal" },
-  { name: "Projects", link: "https://github.com/kamal9580" },
+  { name: "Projects", link: "https://github.com/kamal9580?tab=repositories" },
   { name: "Testimonials", link: "#testimonials" },
   {
     name: "Contact",
