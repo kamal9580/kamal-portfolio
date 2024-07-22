@@ -158,7 +158,7 @@ export const testimonials = [
     quote:
       "Enthusiastic Full Stack developer with a deep passion for the latest tools and technologies.My experties spans in various domains be it React.js,Node.js,Next.js,Typescript and databases like MongoDB and PostgreSQL. I have a intrest in Flutter for  designing  mobile applications. I thrive on staying at the forefront of technology to deliver innovative solutions",
     name: "Nilesh Kumar Kamal",
-    title: " A full stack developer",
+    title: " A full stack developer.",
   },
 ];
 
