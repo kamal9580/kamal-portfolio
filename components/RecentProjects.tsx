@@ -4,6 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import MagicButton from "./MagicButton";
 
 const RecentProjects = () => {
   return (
@@ -19,8 +20,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
-              href="https://www.linkedin.com/in/nilesh-kumar-kamal-655957213/"
+              title={item.title}
+              href={item.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -66,8 +67,20 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple"></p>
-                  {/* <FaLocationArrow className="ms-3" color="#CBACF9" /> */}
+                  {/* <p className="flex lg:text-xl md:text-xs text-sm text-purple">check live site</p>
+                  <FaLocationArrow className="ms-3" color="#CBACF9" /> */}
+
+                 <a href= {item.link}>
+                 {/* <MagicButton 
+
+                 title="check live site"
+                 icon={<FaLocationArrow />}
+                 position="right"
+                 /> */}
+
+                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">check live site</p>
+                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                 </a>
                 </div>
               </div>
             </PinContainer>

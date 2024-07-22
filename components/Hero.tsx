@@ -15,7 +15,8 @@ const Hero = () => {
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
           fill="white"
-        />
+        />    
+        {/* ye accertinity se aa rha hai jo madd krta hai copy code paste karo desigining karne me */}
         <Spotlight
           className="h-[80vh] w-[50vw] top-10 left-full"
           fill="purple"
@@ -63,9 +64,9 @@ const Hero = () => {
             Full Stack development, where I've crafted impactful MERN projects.
           </p>
 
-          <a href="#about">
+          <a href="https://github.com/kamal9580">
             <MagicButton
-              title="Show my work"
+              title="My work"
               icon={<FaLocationArrow />}
               position="right"
             />
