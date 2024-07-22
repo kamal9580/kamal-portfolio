@@ -2,19 +2,19 @@
 
 import { FaLocationArrow } from "react-icons/fa6";
 
-import { projects } from "@/data";
+import { coding, projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import MagicButton from "./MagicButton";
 
-const RecentProjects = () => {
+const Codingprofile = () => {
   return (
     <div className="py-20" >
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        My {" "}
+        <span className="text-purple">Coding profile</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((item) => (
+        {coding.map((item) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
@@ -48,7 +48,7 @@ const RecentProjects = () => {
                   margin: "1vh 0",
                 }}
               >
-                {item.des}
+                {/* {item.des} */}
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
@@ -71,15 +71,15 @@ const RecentProjects = () => {
                   <FaLocationArrow className="ms-3" color="#CBACF9" /> */}
 
                  <a href= {item.link}>
-                 {/* <MagicButton 
+                 <MagicButton 
 
-                 title="check live site"
+                 title="view profile"
                  icon={<FaLocationArrow />}
                  position="right"
-                 /> */}
+                 />
 
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">check live site</p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                  {/* <p className="flex lg:text-xl md:text-xs text-sm text-purple">check live site</p>
+                  <FaLocationArrow className="ms-3" color="#CBACF9" /> */}
                  </a>
                 </div>
               </div>
@@ -91,4 +91,4 @@ const RecentProjects = () => {
   );
 };
 
-export default RecentProjects;
+export default Codingprofile;

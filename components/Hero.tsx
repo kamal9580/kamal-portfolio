@@ -61,7 +61,7 @@ const Hero = () => {
           Hi! I'm Nilesh Kumar Kamal, a Software Engineer interest in
             Competitive Programming and a final year undergraduate at Indian
             Institute of Information Technology, Ranchi. My passion extends to
-            Full Stack development, where I've crafted impactful MERN projects.
+            Full Stack development, where I've crafted impactful MERN projects and <span className="text-blue-600 font-sans font-extrabold"> contibuted to the Open Source.</span>
           </p>
 
           <a href="https://github.com/kamal9580">
