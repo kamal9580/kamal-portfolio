@@ -36,9 +36,9 @@ const Footer = () => {
 
 I would love to connect with you and discuss any potential openings or advice you might have for someone with my background. Thank you for your time, and I look forward to the possibility of connecting.
         </p>
-        <a href="nileshkumarkamal@gmail.com">
+        <a href="https://www.linkedin.com/in/nilesh-kumar-kamal-655957213/">
           <MagicButton
-            title="Lets connect through mail(copy mail)"
+            title="Lets connect through linkedin"
             icon={<FaLocationArrow />}
             position="right"
           />
