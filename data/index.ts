@@ -77,32 +77,42 @@ export const gridItems = [
 ];
 
 export const projects = [
+
   {
     id: 1,
+    title: "Nexorand",
+    des: "A website to keep track of your links and posts.",
+    img: "/admin.svg",
+    iconLists: [ "/tail.svg","/ts.svg"],
+    link: "https://www.nexorand.com/",
+  },
+
+  {
+    id: 2,
     title: "A full stack ecommerce application",
     des: "Developed and maintained a full-stack e-commerce application, enhancing user experience and streamlining online transactions.",
     img: "https://img.freepik.com/premium-vector/ecommerce-project-banner-landing-page-template-website_541075-1532.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/node.svg","/mongo.svg","/multer.svg","/firebase.svg","/rtkquery.svg","/reduxtoolkit.svg"],
-    link: "https://github.com/kamal9580/ECOMMERCE-PROJECT",
+    link: "https://shopkaro-ecommerce.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Ohyo booking App",
     des: "Pioneered an advanced Booking System Webapp that offers an immersive property listing journey.",
     img: "/booking.svg",
     iconLists: ["/tail.svg", "/re.svg","/node.svg","/mongo.svg"],
-    link: "https://github.com/kamal9580/ohyo.git",
+    link: "https://ohyofrontend.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "a twitter clone ",
     des: "A Full Stack Twitter Clone allowing users Tweets,LiKes,comment and make profile with authentication",
     img: "/twitter.svg",
     iconLists: ["/re.svg", "/tail.svg","/node.svg","/next.svg"],
-    link: "https://github.com/kamal9580/Ex-BlueBird.git",
+    link: "https://buzznet-tweet.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Booking Course",
     des: "A course web selection Application with  Authentication,allowing users to select course only when they are login.",
     img: "/book.svg",
@@ -111,7 +121,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
     title: "Newsify",
     des: "A news web Application  allowing users to see the latest news.",
     img: "/news.svg",
@@ -120,12 +130,12 @@ export const projects = [
   },
 
   {
-    id: 6,
-    title: "Admin Dashboard",
-    des: "A react admin dashboard web Application  allowing admin to keep track on its business.",
+    id: 7,
+    title: "youtube frontend clone",
+    des: "A youtube clone.",
     img: "/admin.svg",
     iconLists: [ "/tail.svg","/ts.svg"],
-    link: "https://react-admin-dashboard-lime-zeta.vercel.app",
+    link: "https://youtube-frontend-pi.vercel.app/",
   },
 ];
 
