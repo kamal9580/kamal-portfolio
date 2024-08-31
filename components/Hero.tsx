@@ -43,8 +43,8 @@ const Hero = () => {
 
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-96 ">
+          I’m a web developer skilled in both front-end and back-end development, with a strong foundation in competitive programming. I excel in React and its ecosystem, crafting web applications that focus on enhancing user experience.
           </p>
 
           {/**
@@ -58,15 +58,33 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-          Hi! I'm Nilesh Kumar Kamal, a Software Engineer interest in
-            Competitive Programming and a final year undergraduate at Indian
-            Institute of Information Technology, Ranchi. My passion extends to
-            Full Stack development, where I've crafted impactful MERN projects and <span className="text-blue-600 font-sans font-extrabold"> contibuted to the Open Source.</span>
+          I am Nilesh Kumar kamal, currently in the 4th year of my Bachelor's degree in Computer Science and Engineering at IIIT Ranchi.
+
+
+    I'm proficient in MERN stack development and also well-versed in developing RESTful APIs using Node.js. I also have a good knowledge of Next js, Redux, Recoil ,Postgres, prisma, SQL etc.
+
+
           </p>
 
-          <a href="https://github.com/kamal9580">
+          <p className="text-center text-sm md:text-lg lg:text-2xl">
+
+         
+
+I am actively engaged in problem solving skills and coding challenges on platforms like LeetCode,Codechef,GFG,Codeforces and have the passion for Open Source Contribution and continuous learning. 
+
+
+            </p>
+
+            <br></br>
+
+          <p className="text-center text-sm md:text-lg lg:text-2xl">
+          I also have a prior experience as a Full stack developer intern at Nexorand  where I am building the Frontend and backend  using React js , Tailwind css, NodeJS as a framework ,express js, Mongodb as a databases.
+          <span className="text-blue-600 font-sans font-extrabold"> Full Stack Intern at Nexorand.</span>
+            </p>
+
+          <a href="https://www.nexorand.com/">
             <MagicButton
-              title="My work"
+              title="Live Site"
               icon={<FaLocationArrow />}
               position="right"
             />

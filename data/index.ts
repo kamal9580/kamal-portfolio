@@ -56,7 +56,7 @@ export const gridItems = [
   {
     id: 5,
     title:
-      "Currently developing and gaining experience in Full Stack Developer",
+      "Currently developing and gaining experience in Full Stack Developer and NextJS.",
     description: "Me",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -82,8 +82,8 @@ export const projects = [
     id: 1,
     title: "Nexorand",
     des: "A website to keep track of your links and posts.",
-    img: "/admin.svg",
-    iconLists: [ "/tail.svg","/ts.svg"],
+    img: "/n.svg",
+    iconLists: [ "/tail.svg","/re.svg","/node.svg","/mongo.svg"],
     link: "https://www.nexorand.com/",
   },
 
@@ -133,8 +133,8 @@ export const projects = [
     id: 7,
     title: "youtube frontend clone",
     des: "A youtube clone.",
-    img: "/admin.svg",
-    iconLists: [ "/tail.svg","/ts.svg"],
+    img: "/youtube.svg",
+    iconLists: [ "/re.svg","/tail.svg"],
     link: "https://youtube-frontend-pi.vercel.app/",
   },
 ];
@@ -267,10 +267,19 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Contributed to Open Source",
-    desc: " Fixed the component that was being rendered over the header and ensured that the the component is only rendered when there is some content",
+    title: "Full Stack Intern at Nexorand",
+    desc: [
+      "Tools and technologies used: Javascript, ReactJS, NodeJS, ExpressJS, MongoDB, Git.",
+      "Collaborated with the team to build and optimize Website UIs using ReactJS and Tailwind CSS.",
+      "Added features such as user authentication, link, image management, post management,dynamic public pages and enhanced performance with lazy loading.",
+      
+      "Designed and implemented RESTful APIs for dynamic frontend-backend interactions, including user authentication, real-time updates, and data analytics.",
+      "Engineered and optimized MongoDB databases for efficient data retrieval and scalable storage.",
+      "Worked with backend developers to integrate caching mechanisms, cutting query response times by 20% and enhancing application performance. Implemented JWT-based authentication and data encryption for robust user data security.",
+      " Performed extensive testing and debugging for both frontend and backend components, ensuring seamless deployment and operation of new features."
+    ],
     className: "md:col-span-2",
-    thumbnail: "/exp2.svg",
+    // thumbnail: "",
   },
   // {
   //   id: 2,
@@ -326,13 +335,13 @@ export const myachievments = [
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  // {
-  //   id: 3,
-  //   title: "contributed to open sourece",
-  //   desc: "solve the isse of Async-Api Website",
-  //   className: "md:col-span-2", // change to md:col-span-2
-  //   thumbnail: "/exp3.svg",
-  // },
+  {
+    id: 3,
+    title: "Leetcode(max(1850+))",
+    desc: "Ranked 1140 in Biweekly contest 136.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp4.svg",
+  },
   {
     id: 4,
     title: "competative programming",
@@ -346,7 +355,7 @@ export const myachievments = [
     title: "DSA",
     desc: "solved 1000+ question on leetcode and gfg",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp3.svg",
   },
 
   {
@@ -382,7 +391,7 @@ export const coding = [
     id: 1,
     title: "Leetcode",
     // des: "Developed and maintained a full-stack e-commerce application, enhancing user experience and streamlining online transactions.",
-    img: "/Leetcode_Sharing.png",
+    img: "/leet.svg",
     iconLists: [],
     link: "https://leetcode.com/u/goodatnames/",
   },
