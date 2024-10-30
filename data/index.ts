@@ -137,6 +137,33 @@ export const projects = [
     iconLists: [ "/re.svg","/tail.svg"],
     link: "https://youtube-frontend-pi.vercel.app/",
   },
+
+  {
+    id: 8,
+    title: "Kanban Board",
+    des: "A Kanban board to keep track of your tasks.",
+    img: "/kanban.svg",
+    iconLists: [ "/re.svg","/tail.svg"],
+    link: "https://quicksell-frontend-chi.vercel.app/",
+  },
+
+  {
+    id: 9,
+    title: "Weather App",
+    des: "A weather app to keep track of weather.",
+    img: "/weather.svg",
+    iconLists: [ "/re.svg","/tail.svg"],
+    link: "https://weather-liard-seven.vercel.app/",
+  },
+
+  {
+    id: 10,
+    title: "Rule Engine",
+    des: "A rule engine to keep track of your rules.",
+    img: "/ruleengine.svg",
+    iconLists: [ "/re.svg","/tail.svg","/node.svg"],
+    link: "https://rule-engine-ppzw.onrender.com/",
+  },
 ];
 
 export const testimonials = [
@@ -269,14 +296,15 @@ export const workExperience = [
     id: 1,
     title: "Full Stack Intern at Nexorand",
     desc: [
-      "Tools and technologies used: Javascript, ReactJS, NodeJS, ExpressJS, MongoDB, Git.",
-      "Collaborated with the team to build and optimize Website UIs using ReactJS and Tailwind CSS.",
-      "Added features such as user authentication, link, image management, post management,dynamic public pages and enhanced performance with lazy loading.",
+      "Tools and technologies: ReactJS, Tailwind CSS, NodeJS, Express, MongoDB,Nodemailer,Cloudinary, RESTful APIs, JWT, Git, Postman.",
+      "Developed Core Platform for Brand-Influencer-Customer Engagement from scratch built pages for brands to showcase products, influencers to display collaborations, and customers to explore favorite influencers partnership and improving overall application stability and performance, by adding 5000+ lines of code.",
+      "Developed a robust Node.js backend with Express.js , optimizing database queries and achieving a 35% reduction in API latency, significantly enhancing the overall user experience.",
+      "Remedied complex bugs, engineered modular UI components with ReactJS and Tailwind CSS, integratedNodemailer for secure, automated email verification, and harnessed Chart.js for real-time data visualizationon the analytics page.",
       
-      "Designed and implemented RESTful APIs for dynamic frontend-backend interactions, including user authentication, real-time updates, and data analytics.",
+      "Instituted and optimized an interactive admin panel to enhance user experience, streamline navigation, andenable effective data monitoring, while collaborating cross-functionally to develop clean, maintainable codeand implement file-based routing.",
       "Engineered and optimized MongoDB databases for efficient data retrieval and scalable storage.",
-      "Worked with backend developers to integrate caching mechanisms, cutting query response times by 20% and enhancing application performance. Implemented JWT-based authentication and data encryption for robust user data security.",
-      " Performed extensive testing and debugging for both frontend and backend components, ensuring seamless deployment and operation of new features."
+      // "Worked with backend developers to integrate caching mechanisms, cutting query response times by 20% and enhancing application performance. Implemented JWT-based authentication and data encryption for robust user data security.",
+      // " Performed extensive testing and debugging for both frontend and backend components, ensuring seamless deployment and operation of new features."
     ],
     className: "md:col-span-2",
     // thumbnail: "",
